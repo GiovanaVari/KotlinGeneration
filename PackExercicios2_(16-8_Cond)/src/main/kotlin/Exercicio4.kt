@@ -6,13 +6,12 @@ número é par ou ímpar. Se for par exiba também a raiz quadrada do mesmo; se 
 ímpar exiba o número elevado ao quadrado.*/
 fun main() {
     print("Digite um número: ")
-    val num = readln().toDouble()
-    val r = num % 2
-    if (r == 0.0) {
+    val num = readln().toInt()
+    if (num % 2 == 0) {
         println("O número $num é par")
-        println("A raiz quadrada de $num é: ${sqrt(num)}")
+        println("A raiz quadrada de $num é: ${sqrt(num.toDouble())}")
     } else {
         println("O número $num é ímpar")
-        println("O quadrado de $num é: ${num.pow(2)}")
+        println("O quadrado de $num é: ${num.toDouble().pow(2)}")
     }
 }
