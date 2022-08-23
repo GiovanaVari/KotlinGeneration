@@ -42,7 +42,7 @@ fun main() {
             }
         }
 
-    }catch (e: Exception){
+    } catch (e: Exception) {
         println(e.message)
     }
 }

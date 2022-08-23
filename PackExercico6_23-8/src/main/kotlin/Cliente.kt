@@ -6,7 +6,7 @@ Crie um método para verificar o nome ao inicializar a classe e, caso esteja vaz
 Ao instanciar a classe cliente na função main(), não esquecer de colocar dentro de um bloco try catch*/
 class Cliente(
     val nome: String,
-    val endereço: String,
+    val endereco: String,
     val telefone: String
 ) {
     private var listaDeCompras = mutableListOf<String>()
