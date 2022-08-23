@@ -47,14 +47,14 @@ fun main() {
                 println(Boeing7478.dest)
             }
             3 -> {
-                val Liquidificador = Eletronicos(
-                    "Liquidificador",
-                    "Britania",
+                val PSP = Eletronicos(
+                    "PSP",
+                    "Playstation",
                     110,
                     "vermelho",
-                    "Cozinha"
+                    "Game"
                 )
-                Liquidificador.promocao()
+                PSP.promocao()
             }
             4 -> {
                 println("Não foi feito ainda!")
